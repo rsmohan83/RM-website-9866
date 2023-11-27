@@ -38,11 +38,11 @@ h3{
 font-family:Sahadeva regular;
 font-weight:Bolder;
 font-size:50px;
-text-decoration:Underline;
+text-decoration:underline solid;
 }
 h1{
 font-family:Poppins;
 font-weight:Bold;
 font-size:70px;
-text-decoration:dotted;
+text-decoration: underline dotted;
 }
