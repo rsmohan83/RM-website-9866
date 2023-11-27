@@ -34,15 +34,15 @@ div{
   background-color:#00FFB5;
   font-size:40px;
 }
-h2{
+h3{
 font-family:Sahadeva regular;
 font-weight:Bolder;
-font-size:70px;
+font-size:50px;
 text-decoration:Underline;
 }
 h1{
 font-family:Poppins;
 font-weight:Bold;
-font-size:50px;
-text-decoration:Wavy;
+font-size:70px;
+text-decoration:dotted;
 }
