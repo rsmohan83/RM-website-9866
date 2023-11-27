@@ -34,8 +34,9 @@ div{
   background-color:#00FFB5;
   font-size:40px;
 }
-h1{
+h2{
 font-family:sahadeva regular
 font-weight:bolder;
-font-size:50px
+font-size:50px;
+text-decoration:dotted;
 }
