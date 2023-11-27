@@ -35,8 +35,14 @@ div{
   font-size:40px;
 }
 h2{
-font-family:sahadeva regular
+font-family:sahadeva regular;
 font-weight:bolder;
 font-size:50px;
-text-decoration:dotted;
+text-decoration:underline;
+}
+h1{
+font-family:poppins;
+font-weight:bold;
+font-size:40px;
+text-decoration:wavy;
 }
