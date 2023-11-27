@@ -1,7 +1,5 @@
  body{
      background-color:#e87910;
-     color:rgb(198, 255, 0);
-        
 }
  
 div{
@@ -46,4 +44,5 @@ font-family:Poppins;
 font-weight:Bold;
 font-size:70px;
 text-decoration:underline green dotted;
+font-color:#eeff41
 }
