@@ -60,7 +60,7 @@ float:left;
 list-style:none;
 padding:3px 3px;
 margin:15px 20px;
-font-size:30px;
+font-size:20px;
 }
 .navbar ul{
 overflow:auto;
@@ -73,5 +73,5 @@ color:white;
 .navbar li a:hover{
 color:red;
 background-color:yellow;
-font-size:50px
+font-size:30px
 }
