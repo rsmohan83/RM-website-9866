@@ -1,12 +1,12 @@
 div{
-   background-color:#FFC436;
+   background-color:black;
    color:White;
    display:inline;
    font-size:23px   
 }
 
 .navbar{
-  background-color:#DD16E3;
+  background-color:#FFC436;
   border-radius:30px;
 }
 .navbar ul {
@@ -26,6 +26,6 @@ div{
 }
 .navbar li a:hover{
   color:red;
-  background-color:#00FFB5;
+  background-color:#0A00B5;
   font-size:40px;
 }
