@@ -44,7 +44,7 @@ color:#6A9C89;
 .marquee{
 font-family:Poppins
 font-size:90px;
-text-decoration:green;
+text-decoration:underline green dotted;
 background-color:#F4F27E;
 color:red;
 }
