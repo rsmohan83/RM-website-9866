@@ -1,1 +1,31 @@
-jj
+div{
+   background-color:black;
+   color:White;
+   display:inline;
+   font-size:25px   
+}
+
+.navbar{
+  background-color:#DD16E3;
+  border-radius:30px;
+}
+.navbar ul {
+  overflow:auto;
+}
+.navbar li {
+  float:left;
+  padding:3px 3px;
+  margin:9px 10px;
+  list-style:none;
+  font-size:30px;
+}
+.navbar li a {
+  padding:3px 3px;
+  text-decoration:none;
+  color:rgba(186, 255, 0, 0.98);
+}
+.navbar li a:hover{
+  color:red;
+  background-color:#00FFB5;
+  font-size:40px;
+}
