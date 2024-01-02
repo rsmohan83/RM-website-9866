@@ -23,7 +23,7 @@ div{
   list-style:none;
   font-size:30px;
 }
-.navbar li a {
+ a {
   padding:3px 3px;
   text-decoration:none;
   color:rgba(186, 255, 0, 0.98);
