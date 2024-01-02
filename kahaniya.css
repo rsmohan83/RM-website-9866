@@ -13,7 +13,7 @@ div{
   background-color:#B83B5E;
   border-radius:30px;
 }
-ul {
+.navbar ul {
   overflow:auto;
 }
 .navbar li {
@@ -23,7 +23,7 @@ ul {
   list-style:none;
   font-size:30px;
 }
- a {
+.navbar li a {
   padding:3px 3px;
   text-decoration:overline;
   color:rgba(186, 255, 0, 0.98);
