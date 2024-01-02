@@ -25,7 +25,7 @@ ul {
 }
  a {
   padding:3px 3px;
-  text-decoration:none;
+  text-decoration:overline;
   color:rgba(186, 255, 0, 0.98);
 }
 .navbar li a:hover{
