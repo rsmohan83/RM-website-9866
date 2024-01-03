@@ -20,7 +20,7 @@
   text-align:center;
 }
 .navbar ul li:hover{
-  font-size:20px;
+  font-size:17px;
 }
 
 .navbar ul li a{
@@ -45,5 +45,5 @@
   display:block;
   color:green;
   background-color:orange;
-  font-size:25px;
+  font-size:21px;
 }
