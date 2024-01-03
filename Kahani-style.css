@@ -38,12 +38,12 @@
   color:white;
   border:none;
   display:none;
-  font-size:25px;
+  font-size:10px;
   float:right;
 }
 .navbar ul li:hover ul li{
   display:block;
   color:green;
   background-color:orange;
-  font-size:35px;
+  font-size:20px;
 }
