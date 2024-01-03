@@ -21,13 +21,13 @@
   text-align:center;
 }
 .navbar ul li:hover{
-  font-size:40px;
+  font-size:25px;
 }
 
 .navbar ul li a{
   color:white;
   text-decoration:none;
-  line-height:100px;
+  line-height:80px;
   overflow:auto;
 }
 .navbar ul li a:hover{
@@ -39,13 +39,13 @@
   color:white;
   border:none;
   display:none;
-  font-size:30px;
+  font-size:20px;
 }
 .navbar ul li:hover ul li{
   display:block;
   color:green;
   background-color:orange;
-  font-size:50px;
+  font-size:30px;
 }
 body{
 background-color:Aqua;
