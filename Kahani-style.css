@@ -3,31 +3,30 @@
   margin:0;
 }
 .navbar{
-  width:80%;
-  height:100px;
+  width:300px;
+  height:20px;
   background-color:black;
-  margin-right:3px;
-  padding-right:0px;
-  margin-bottom:0px;
+  margin-right:80px;
+  padding-right:20px;
 }
 .navbar ul{
   list-style-type:none;
 }
 .navbar ul li{
   float:left;
-  width:150px;
-  font-size:20px;
+  width:80px;
+  font-size:10px;
   font-weight:bold;
   text-align:center;
 }
 .navbar ul li:hover{
-  font-size:25px;
+  font-size:10px;
 }
 
 .navbar ul li a{
   color:white;
   text-decoration:none;
-  line-height:80px;
+  line-height:12px;
   overflow:auto;
 }
 .navbar ul li a:hover{
@@ -39,14 +38,11 @@
   color:white;
   border:none;
   display:none;
-  font-size:20px;
+  font-size:8px;
 }
 .navbar ul li:hover ul li{
   display:block;
   color:green;
   background-color:orange;
-  font-size:30px;
-}
-body{
-background-color:Aqua;
+  font-size:8px;
 }
