@@ -15,12 +15,12 @@
 .navbar ul li{
   float:left;
   width:80px;
-  font-size:20px;
+  font-size:40px;
   font-weight:bold;
   text-align:center;
 }
 .navbar ul li:hover{
-  font-size:25px;
+  font-size:50px;
 }
 
 .navbar ul li a{
@@ -38,12 +38,12 @@
   color:white;
   border:none;
   display:none;
-  font-size:20px;
+  font-size:25px;
   float:right;
 }
 .navbar ul li:hover ul li{
   display:block;
   color:green;
   background-color:orange;
-  font-size:25px;
+  font-size:35px;
 }
