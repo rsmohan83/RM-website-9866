@@ -1,53 +1,34 @@
-body{
-     background-color:#f39c12;
-}
- 
-div{
-   background-color:#B83B56;
-   color:White;
-   display:inline;
-   font-size:25px   
-}
+*{
+     margin:0
+     padding:0
+  }
 
 .navbar{
-  background-color:#B83B5E;
-  border-radius:30px;
-}
-.navbar ul {
-  overflow:auto;
-}
-.navbar li {
-  float:left;
-  padding:3px 3px;
-  margin:9px 10px;
-  list-style:none;
-  font-size:30px;
-}
-.navbar li a {
-  padding:3px 3px;
-  text-decoration:overline;
-  color:rgba(186, 255, 0, 0.98);
-}
-.navbar li a:hover{
-  color:red;
-  background-color:#00FFB5;
-  font-size:40px;
-}
-h3{
-font-family:Sahadeva regular;
-font-weight:Bolder;
-font-size:50px;
-text-decoration:underline aquamarine solid;
-background-color:#F4F27E;
-color:#6A9C89;
-}
-Marquee{
-font-size:60px;
-text-decoration:underline green dotted;
-background-color:#F4F27E;
-color:red;
-}
-p{
-color:#e74c3c;
-background-color:#2ecc71;
-}
+      width:60%;
+      height:50px;
+      background-color:black;
+      margin:3px;
+   }
+
+.navbar ul{
+      list-style-type:none;
+   }
+
+.navbar ul li {
+      float: left;
+      width:150px;
+      font-size:20px;
+      text-align:center;
+   }
+
+.navbar ul li a{
+       color:white;
+       text-decoration:none;
+       line-height:50px;
+       display:block;
+    }
+
+.navbar ul li a:hover{
+       background-color:Aqua;
+       color:#000
+     }
