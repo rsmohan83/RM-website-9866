@@ -39,6 +39,7 @@
   border:none;
   display:none;
   font-size:15px;
+  float:right;
 }
 .navbar ul li:hover ul li{
   display:block;
