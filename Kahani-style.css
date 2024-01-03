@@ -3,18 +3,18 @@
   margin:0;
 }
 .navbar{
-  width:900px;
-  height:60px;
+  width:80%;
+  height:50px;
   background-color:black;
-  margin-right:80px;
-  padding-right:20px;
+  margin-right:30px;
+  padding-right:10px;
 }
 .navbar ul{
   list-style-type:none;
 }
 .navbar ul li{
   float:left;
-  width:80px;
+  width:216px;
   font-size:50px;
   font-weight:bold;
   text-align:center;
@@ -26,7 +26,7 @@
 .navbar ul li a{
   color:white;
   text-decoration:none;
-  line-height:60px;
+  line-height:50px;
   overflow:auto;
 }
 .navbar ul li a:hover{
@@ -38,11 +38,11 @@
   color:white;
   border:none;
   display:none;
-  font-size:20px;
+  font-size:50px;
 }
 .navbar ul li:hover ul li{
   display:block;
   color:green;
   background-color:orange;
-  font-size:40px;
+  font-size:60px;
 }
