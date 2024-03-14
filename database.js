@@ -1,19 +1,9 @@
-<script>
+const scriptURL = '<SCRIPT URL>'
+  const form = document.forms['submit-to-google-sheet']
 
-const scriptURL
-
-'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVj06xC 7T0I/exec'
-
-const form document.forms['google-sheet']
-
-form.addEventListener('submit', e => {
-
-})
-
-e.preventDefault()
-
-fetch (scriptURL, { method: 'POST', body: new FormData (form)))
-
-.then (response => alert("Thanks for Contacting us..! We Will Contact You Soon...")) .catch(error => console.error('Error!', error.message))
-
-</script> 
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
