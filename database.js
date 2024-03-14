@@ -1,23 +1,19 @@
-const axios = require('axios');
+<script>
 
-const API_URL = 'https://your-api-url.com';
+const scriptURL
 
+'https://script.google.com/macros/s/AKfycbxkgWotCMyvIKoT9aGtPCndZdHtHrq8i972t9CKAVj06xC 7T0I/exec'
 
-async function getData() {
-  try {
-    const response = await axios.get(`${API_URL}/data`);
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-}
+const form document.forms['google-sheet']
 
+form.addEventListener('submit', e => {
 
-async function insertData(data) {
-  try {
-    const response = await axios.post(`${API_URL}/data`, data);
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-}
+})
+
+e.preventDefault()
+
+fetch (scriptURL, { method: 'POST', body: new FormData (form)))
+
+.then (response => alert("Thanks for Contacting us..! We Will Contact You Soon...")) .catch(error => console.error('Error!', error.message))
+
+</script> 
