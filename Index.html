@@ -7,6 +7,7 @@
         <meta name="google-site-verification"
                 content="weSaoayLZYd3__lGMqvDuOfxUKiv_EXrEI-yzCVSVqE" />
         <title>Radhe Mohan</title>
+<script src="database.js"></script>
    <link rel="stylesheet" href="style.css">
 </head>
 
@@ -39,6 +40,12 @@
 </ul>
 </aside></main>
 
+
+    <script>
+      getData().then(data => {
+        document.getElementById('data').innerHTML = data;
+      });
+    </script>
 
 </body>
 
